@@ -1,0 +1,243 @@
+
+/*  basick css  */
+h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*  basick css end  */
+
+/* heder nav  css start  */
+.navbar-brand img{
+    max-width: 100%;
+    width: 100px;
+}
+#manu:hover{
+  color: red;
+  font-weight: 600;
+}
+.navbar {
+    padding: 30px 0px ;
+}
+#btn{
+    margin-left: 10px;
+    padding: 10px 0;
+    padding: 5px 35px;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    font-weight: 600;
+}
+#btn:hover{
+    background-color: rgb(60, 135, 246);
+    border-color: rgb(60, 135, 246);
+}
+#search:hover{
+background-color: #cdd2cd;
+}
+/*  header nav css end  */
+
+
+
+ /* card-content   start  */
+ .card-link{
+    display: block;
+    text-align: center;
+ }
+ .card-link a {
+ display: inline-block;
+ text-decoration: none;
+ padding: 6px 38px ;
+ background-color: #333333;
+ background: none repeat scroll 0 0 #404140;
+ border-radius: 0 0 5px 5px;
+ color: #fff;
+ font-family: verdana;
+ font-weight: bold;
+ box-shadow: 0 2px 2px #7f807f;
+ }
+
+
+/* card-content end  */
+
+
+
+/*  promo content  css start  */
+.promo-content-section{
+    background: #f6f3ee;
+    
+    
+}
+.promo-content h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: black;
+    font-family:serif;
+   padding: 10px 0;
+
+}
+.promo-content-list-item h4{
+padding: 10px 0;
+}
+.promo-content-list-item ul{}
+.promo-content-list-item ul li{
+    list-style: none;
+}
+.promo-content-list-item ul li a{
+   text-decoration:none;
+   color: #333333;
+   padding: 5px;
+   font-size: 15px;
+   text-align: center;
+
+}
+.promo-content-p h4{
+    padding: 10px o;
+}
+.promo-content-p p{
+    font-family: verdana,arial;
+    text-align: justify;
+    font-size: 13px;
+}
+
+/* pronmo content css end  */
+
+/*  secund nav bar start  */
+.secund-nav{
+    background-color: red;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.container ul{}
+.container ul li {
+    list-style: none;
+}
+.container ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  justify-content: center;
+}
+.container ul a:hover{
+    color: #7f807f;
+    font-weight: 600;
+}
+/*  secund navbar end  */
+
+/*  footer start  */
+.footer-menu{}
+.footer-menu ul {
+    display: block;
+}
+.footer-menu ul li {
+    display: inline-block;
+}
+.footer-menu ul li a {
+    color: black;
+    font-size: 15px;
+}
+/*  footer manu end  */
+
+
+/*  shop page css start  */
+
+.pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+ #product1{
+
+     text-align: center;
+ }
+ #product1 .pro{
+     width: 23%;
+     min-width: 250px;
+     padding: 10px 12px ;
+     border: 1px solid #cce7d0;
+     border-radius: 10px;
+     cursor: pointer;
+     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+     margin: 15px 0 ;
+     transition: 0.2s ease-in-out;
+     position: relative;
+ }
+ #product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+ }
+ #product1 .pro img{
+     max-width: 100%;
+     border-radius: 10px;
+ }
+
+.des{
+  text-align: start;
+  padding: 10px 0 ;
+
+ }
+
+
+.des span{
+     color: #606063;
+     font-size: 12px;
+     
+ }
+ .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.star i{
+   color: rgb(243, 181, 25);
+}
+.des h4{
+     padding-top: 7px;
+     font-size: 19px;
+     font-weight: 700;
+     color: #088178;
+ }
+
+.cart a i{
+color: #088178;
+width: 40px ;
+height: 40px;
+line-height: 40px;
+border-radius: 50%;
+background-color: #cce7d0;
+font-weight: 600;
+border-color: 1px solid #cce7d0;
+position: absolute;
+bottom: 20px ;
+right: 10px;
+}
+
+
+ /* shop page end  */
+
+
+ /*  pament ge */
+
+
+
+ @media only screen and (max-width: 600px) {
+    img.img-responsive {
+        width: 100%;
+    }
+    #product1 .pro {
+     
+        width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+  
